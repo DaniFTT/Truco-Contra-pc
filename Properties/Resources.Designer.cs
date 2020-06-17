@@ -133,9 +133,9 @@ namespace Projeto_Jogo_de_Truco.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap C7jpg {
+        internal static System.Drawing.Bitmap C7 {
             get {
-                object obj = ResourceManager.GetObject("C7jpg", resourceCulture);
+                object obj = ResourceManager.GetObject("C7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace Projeto_Jogo_de_Truco.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap C8jpg {
+        internal static System.Drawing.Bitmap C8 {
             get {
-                object obj = ResourceManager.GetObject("C8jpg", resourceCulture);
+                object obj = ResourceManager.GetObject("C8", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
