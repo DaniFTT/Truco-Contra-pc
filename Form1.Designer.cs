@@ -209,7 +209,7 @@
             // pb3
             // 
             this.pb3.BackColor = System.Drawing.Color.Ivory;
-            this.pb3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb3.Cursor = System.Windows.Forms.Cursors.Default;
             this.pb3.InitialImage = ((System.Drawing.Image)(resources.GetObject("pb3.InitialImage")));
             this.pb3.Location = new System.Drawing.Point(409, 44);
             this.pb3.Name = "pb3";
@@ -220,7 +220,7 @@
             // pb2
             // 
             this.pb2.BackColor = System.Drawing.Color.Ivory;
-            this.pb2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pb2.InitialImage = ((System.Drawing.Image)(resources.GetObject("pb2.InitialImage")));
             this.pb2.Location = new System.Drawing.Point(307, 44);
             this.pb2.Name = "pb2";
@@ -232,7 +232,7 @@
             // pb1
             // 
             this.pb1.BackColor = System.Drawing.Color.Ivory;
-            this.pb1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb1.Cursor = System.Windows.Forms.Cursors.Default;
             this.pb1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pb1.InitialImage")));
             this.pb1.Location = new System.Drawing.Point(200, 44);
             this.pb1.Name = "pb1";
