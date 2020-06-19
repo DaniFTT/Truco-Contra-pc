@@ -46,6 +46,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblApostas = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnTruco = new System.Windows.Forms.Button();
+            this.btnVirar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbVira)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb5)).BeginInit();
@@ -210,6 +212,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.Controls.Add(this.btnVirar);
+            this.panel1.Controls.Add(this.btnTruco);
             this.panel1.Controls.Add(this.lblApostas);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.lblManilha);
@@ -237,7 +241,7 @@
             this.lblApostas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(12)))));
             this.lblApostas.Font = new System.Drawing.Font("Broadway", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblApostas.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblApostas.Location = new System.Drawing.Point(766, 332);
+            this.lblApostas.Location = new System.Drawing.Point(766, 319);
             this.lblApostas.Name = "lblApostas";
             this.lblApostas.Size = new System.Drawing.Size(95, 75);
             this.lblApostas.TabIndex = 19;
@@ -251,6 +255,34 @@
             this.pictureBox1.Size = new System.Drawing.Size(873, 620);
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
+            // 
+            // btnTruco
+            // 
+            this.btnTruco.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(75)))), ((int)(((byte)(21)))));
+            this.btnTruco.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTruco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTruco.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTruco.ForeColor = System.Drawing.Color.PaleGoldenrod;
+            this.btnTruco.Location = new System.Drawing.Point(704, 506);
+            this.btnTruco.Name = "btnTruco";
+            this.btnTruco.Size = new System.Drawing.Size(90, 28);
+            this.btnTruco.TabIndex = 20;
+            this.btnTruco.Text = "Truco";
+            this.btnTruco.UseVisualStyleBackColor = false;
+            // 
+            // btnVirar
+            // 
+            this.btnVirar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(75)))), ((int)(((byte)(21)))));
+            this.btnVirar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVirar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVirar.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVirar.ForeColor = System.Drawing.Color.PaleGoldenrod;
+            this.btnVirar.Location = new System.Drawing.Point(704, 552);
+            this.btnVirar.Name = "btnVirar";
+            this.btnVirar.Size = new System.Drawing.Size(67, 28);
+            this.btnVirar.TabIndex = 21;
+            this.btnVirar.Text = "Virar";
+            this.btnVirar.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -293,6 +325,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblApostas;
+        private System.Windows.Forms.Button btnVirar;
+        private System.Windows.Forms.Button btnTruco;
     }
 }
 
