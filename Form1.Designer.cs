@@ -44,8 +44,8 @@
             this.pb2 = new System.Windows.Forms.PictureBox();
             this.pb1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblApostas = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbVira)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb5)).BeginInit();
@@ -59,7 +59,7 @@
             // 
             // lblPontos1
             // 
-            this.lblPontos1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(71)))), ((int)(((byte)(30)))));
+            this.lblPontos1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(77)))), ((int)(((byte)(35)))));
             this.lblPontos1.Font = new System.Drawing.Font("Impact", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPontos1.Location = new System.Drawing.Point(236, 497);
             this.lblPontos1.Name = "lblPontos1";
@@ -88,7 +88,6 @@
             this.label5.Size = new System.Drawing.Size(95, 70);
             this.label5.TabIndex = 10;
             this.label5.Text = "Valor da Aposta:";
-            this.label5.Click += new System.EventHandler(this.lblApostas_Click);
             // 
             // lblManilha
             // 
@@ -104,8 +103,8 @@
             // lbl3
             // 
             this.lbl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(12)))));
+            this.lbl3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl3.Image = ((System.Drawing.Image)(resources.GetObject("lbl3.Image")));
             this.lbl3.Location = new System.Drawing.Point(829, 199);
             this.lbl3.Name = "lbl3";
             this.lbl3.Size = new System.Drawing.Size(23, 23);
@@ -114,8 +113,8 @@
             // lbl2
             // 
             this.lbl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(12)))));
+            this.lbl2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl2.Image = ((System.Drawing.Image)(resources.GetObject("lbl2.Image")));
             this.lbl2.Location = new System.Drawing.Point(800, 199);
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(23, 23);
@@ -124,8 +123,8 @@
             // lbl1
             // 
             this.lbl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(12)))));
+            this.lbl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Image = ((System.Drawing.Image)(resources.GetObject("lbl1.Image")));
             this.lbl1.Location = new System.Drawing.Point(771, 199);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(23, 23);
@@ -133,81 +132,78 @@
             // 
             // pbVira
             // 
-            this.pbVira.BackColor = System.Drawing.Color.Ivory;
+            this.pbVira.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(52)))), ((int)(((byte)(21)))));
             this.pbVira.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pbVira.InitialImage = ((System.Drawing.Image)(resources.GetObject("pbVira.InitialImage")));
-            this.pbVira.Location = new System.Drawing.Point(26, 181);
+            this.pbVira.Location = new System.Drawing.Point(26, 182);
             this.pbVira.Name = "pbVira";
-            this.pbVira.Size = new System.Drawing.Size(76, 118);
+            this.pbVira.Size = new System.Drawing.Size(73, 113);
             this.pbVira.TabIndex = 6;
             this.pbVira.TabStop = false;
             // 
             // pb6
             // 
-            this.pb6.BackColor = System.Drawing.Color.Ivory;
+            this.pb6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(52)))), ((int)(((byte)(21)))));
             this.pb6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb6.InitialImage = ((System.Drawing.Image)(resources.GetObject("pb6.InitialImage")));
-            this.pb6.Location = new System.Drawing.Point(592, 438);
+            this.pb6.Location = new System.Drawing.Point(579, 467);
             this.pb6.Name = "pb6";
-            this.pb6.Size = new System.Drawing.Size(76, 118);
+            this.pb6.Size = new System.Drawing.Size(73, 113);
             this.pb6.TabIndex = 5;
             this.pb6.TabStop = false;
-            this.pb6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pb5
             // 
-            this.pb5.BackColor = System.Drawing.Color.Ivory;
+            this.pb5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(52)))), ((int)(((byte)(21)))));
             this.pb5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb5.InitialImage = ((System.Drawing.Image)(resources.GetObject("pb5.InitialImage")));
-            this.pb5.Location = new System.Drawing.Point(456, 438);
+            this.pb5.Location = new System.Drawing.Point(451, 467);
             this.pb5.Name = "pb5";
-            this.pb5.Size = new System.Drawing.Size(76, 118);
+            this.pb5.Size = new System.Drawing.Size(73, 113);
             this.pb5.TabIndex = 4;
             this.pb5.TabStop = false;
             // 
             // pb4
             // 
-            this.pb4.BackColor = System.Drawing.Color.Ivory;
+            this.pb4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(52)))), ((int)(((byte)(21)))));
             this.pb4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb4.InitialImage = ((System.Drawing.Image)(resources.GetObject("pb4.InitialImage")));
-            this.pb4.Location = new System.Drawing.Point(325, 438);
+            this.pb4.Location = new System.Drawing.Point(323, 467);
             this.pb4.Name = "pb4";
-            this.pb4.Size = new System.Drawing.Size(76, 118);
+            this.pb4.Size = new System.Drawing.Size(73, 113);
             this.pb4.TabIndex = 3;
             this.pb4.TabStop = false;
-            this.pb4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pb3
             // 
-            this.pb3.BackColor = System.Drawing.Color.Ivory;
+            this.pb3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(52)))), ((int)(((byte)(21)))));
             this.pb3.Cursor = System.Windows.Forms.Cursors.Default;
             this.pb3.InitialImage = ((System.Drawing.Image)(resources.GetObject("pb3.InitialImage")));
-            this.pb3.Location = new System.Drawing.Point(456, 42);
+            this.pb3.Location = new System.Drawing.Point(452, 22);
             this.pb3.Name = "pb3";
-            this.pb3.Size = new System.Drawing.Size(76, 118);
+            this.pb3.Size = new System.Drawing.Size(73, 113);
             this.pb3.TabIndex = 2;
             this.pb3.TabStop = false;
             // 
             // pb2
             // 
-            this.pb2.BackColor = System.Drawing.Color.Ivory;
+            this.pb2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(52)))), ((int)(((byte)(21)))));
             this.pb2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pb2.InitialImage = ((System.Drawing.Image)(resources.GetObject("pb2.InitialImage")));
-            this.pb2.Location = new System.Drawing.Point(325, 42);
+            this.pb2.Location = new System.Drawing.Point(324, 22);
             this.pb2.Name = "pb2";
-            this.pb2.Size = new System.Drawing.Size(76, 118);
+            this.pb2.Size = new System.Drawing.Size(73, 113);
             this.pb2.TabIndex = 1;
             this.pb2.TabStop = false;
-            this.pb2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pb1
             // 
-            this.pb1.BackColor = System.Drawing.Color.Ivory;
+            this.pb1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(52)))), ((int)(((byte)(21)))));
             this.pb1.Cursor = System.Windows.Forms.Cursors.Default;
             this.pb1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pb1.InitialImage")));
-            this.pb1.Location = new System.Drawing.Point(213, 42);
+            this.pb1.Location = new System.Drawing.Point(197, 22);
             this.pb1.Name = "pb1";
-            this.pb1.Size = new System.Drawing.Size(76, 118);
+            this.pb1.Size = new System.Drawing.Size(73, 113);
             this.pb1.TabIndex = 0;
             this.pb1.TabStop = false;
             // 
@@ -236,17 +232,6 @@
             this.panel1.Size = new System.Drawing.Size(873, 620);
             this.panel1.TabIndex = 18;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(873, 620);
-            this.pictureBox1.TabIndex = 18;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // lblApostas
             // 
             this.lblApostas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(12)))));
@@ -256,6 +241,16 @@
             this.lblApostas.Name = "lblApostas";
             this.lblApostas.Size = new System.Drawing.Size(95, 75);
             this.lblApostas.TabIndex = 19;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(873, 620);
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -267,7 +262,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbVira)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb5)).EndInit();

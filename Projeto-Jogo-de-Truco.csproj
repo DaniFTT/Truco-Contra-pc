@@ -82,6 +82,18 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\C7jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C8jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ordem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Verso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\C4.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -91,10 +103,10 @@
     <None Include="Resources\C6.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\C7jpg.jpg" />
+    <None Include="Resources\C7.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\C8jpg.jpg" />
+    <None Include="Resources\C8.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\C9.jpg" />
@@ -200,12 +212,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\P13.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ordem.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Verso.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
