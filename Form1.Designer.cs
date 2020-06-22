@@ -44,10 +44,10 @@
             this.pb2 = new System.Windows.Forms.PictureBox();
             this.pb1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnVirar = new System.Windows.Forms.Button();
+            this.btnTruco = new System.Windows.Forms.Button();
             this.lblApostas = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnTruco = new System.Windows.Forms.Button();
-            this.btnVirar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbVira)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb5)).BeginInit();
@@ -153,6 +153,8 @@
             this.pb6.Size = new System.Drawing.Size(73, 113);
             this.pb6.TabIndex = 5;
             this.pb6.TabStop = false;
+            this.pb6.Tag = "5";
+            this.pb6.Click += new System.EventHandler(this.Card);
             // 
             // pb5
             // 
@@ -164,6 +166,8 @@
             this.pb5.Size = new System.Drawing.Size(73, 113);
             this.pb5.TabIndex = 4;
             this.pb5.TabStop = false;
+            this.pb5.Tag = "4";
+            this.pb5.Click += new System.EventHandler(this.Card);
             // 
             // pb4
             // 
@@ -175,6 +179,8 @@
             this.pb4.Size = new System.Drawing.Size(73, 113);
             this.pb4.TabIndex = 3;
             this.pb4.TabStop = false;
+            this.pb4.Tag = "3";
+            this.pb4.Click += new System.EventHandler(this.Card);
             // 
             // pb3
             // 
@@ -186,6 +192,8 @@
             this.pb3.Size = new System.Drawing.Size(73, 113);
             this.pb3.TabIndex = 2;
             this.pb3.TabStop = false;
+            this.pb3.Tag = "2";
+            this.pb3.Click += new System.EventHandler(this.Card);
             // 
             // pb2
             // 
@@ -197,6 +205,8 @@
             this.pb2.Size = new System.Drawing.Size(73, 113);
             this.pb2.TabIndex = 1;
             this.pb2.TabStop = false;
+            this.pb2.Tag = "1";
+            this.pb2.Click += new System.EventHandler(this.Card);
             // 
             // pb1
             // 
@@ -208,6 +218,9 @@
             this.pb1.Size = new System.Drawing.Size(73, 113);
             this.pb1.TabIndex = 0;
             this.pb1.TabStop = false;
+            this.pb1.Tag = "0";
+            this.pb1.Click += new System.EventHandler(this.Card);
+
             // 
             // panel1
             // 
@@ -236,6 +249,34 @@
             this.panel1.Size = new System.Drawing.Size(873, 620);
             this.panel1.TabIndex = 18;
             // 
+            // btnVirar
+            // 
+            this.btnVirar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(75)))), ((int)(((byte)(21)))));
+            this.btnVirar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVirar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVirar.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVirar.ForeColor = System.Drawing.Color.PaleGoldenrod;
+            this.btnVirar.Location = new System.Drawing.Point(704, 552);
+            this.btnVirar.Name = "btnVirar";
+            this.btnVirar.Size = new System.Drawing.Size(67, 28);
+            this.btnVirar.TabIndex = 21;
+            this.btnVirar.Text = "Virar";
+            this.btnVirar.UseVisualStyleBackColor = false;
+            // 
+            // btnTruco
+            // 
+            this.btnTruco.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(75)))), ((int)(((byte)(21)))));
+            this.btnTruco.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTruco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTruco.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTruco.ForeColor = System.Drawing.Color.PaleGoldenrod;
+            this.btnTruco.Location = new System.Drawing.Point(704, 506);
+            this.btnTruco.Name = "btnTruco";
+            this.btnTruco.Size = new System.Drawing.Size(90, 28);
+            this.btnTruco.TabIndex = 20;
+            this.btnTruco.Text = "Truco";
+            this.btnTruco.UseVisualStyleBackColor = false;
+            // 
             // lblApostas
             // 
             this.lblApostas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(12)))));
@@ -256,34 +297,6 @@
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
             // 
-            // btnTruco
-            // 
-            this.btnTruco.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(75)))), ((int)(((byte)(21)))));
-            this.btnTruco.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnTruco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTruco.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTruco.ForeColor = System.Drawing.Color.PaleGoldenrod;
-            this.btnTruco.Location = new System.Drawing.Point(704, 506);
-            this.btnTruco.Name = "btnTruco";
-            this.btnTruco.Size = new System.Drawing.Size(90, 28);
-            this.btnTruco.TabIndex = 20;
-            this.btnTruco.Text = "Truco";
-            this.btnTruco.UseVisualStyleBackColor = false;
-            // 
-            // btnVirar
-            // 
-            this.btnVirar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(75)))), ((int)(((byte)(21)))));
-            this.btnVirar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnVirar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVirar.Font = new System.Drawing.Font("Broadway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVirar.ForeColor = System.Drawing.Color.PaleGoldenrod;
-            this.btnVirar.Location = new System.Drawing.Point(704, 552);
-            this.btnVirar.Name = "btnVirar";
-            this.btnVirar.Size = new System.Drawing.Size(67, 28);
-            this.btnVirar.TabIndex = 21;
-            this.btnVirar.Text = "Virar";
-            this.btnVirar.UseVisualStyleBackColor = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -293,7 +306,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "\'";
             ((System.ComponentModel.ISupportInitialize)(this.pbVira)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb5)).EndInit();

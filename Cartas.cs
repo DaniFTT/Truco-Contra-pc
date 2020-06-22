@@ -88,7 +88,23 @@ namespace Projeto_Jogo_de_Truco
         public static string FormatarManilha(int man)
         {// Formata a manilha de exibição ddo jogo se for carta de figura
 
-            var novaManilha = man == 8 ? "Q" : (man == 9 ? "J" : (man == 10 ? "K" : (man == 11 ? "A" : (man == 12 ? "2" : "3"))));
+            // var novaManilha = man == 8 ? "Q" : (man == 9 ? "J" : (man == 10 ? "K" : (man == 11 ? "A" : (man == 12 ? "2" : "3"))));
+            string novaManilha = "Q";
+
+            if (man == 8)
+                novaManilha = "Q";
+            else if (man == 9)
+                novaManilha = "J";
+            else if (man == 10)
+                novaManilha = "K";
+            else if (man == 11)
+                novaManilha = "A";
+            else if (man == 12)
+                novaManilha = "2";
+            else if (man == 13)
+                novaManilha = "3";
+
+
             return novaManilha;
         }
     }
